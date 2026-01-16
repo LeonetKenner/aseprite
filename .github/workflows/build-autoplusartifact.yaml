@@ -3,7 +3,7 @@ name: build-autoplusartifact
 on:
   push:
     paths:
-      - '.github/workflows/build-autoplusartifact.yml'
+      - '.github/workflows/build-autoplusartifact.yaml'
       - 'build.cmd'
       - 'build.ps1'
       - 'build.sh'
